@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-<meta name="John Mitzewich" content="Andrew Nguyen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Andrew Nguyen">
 <title>Mhm Garlic!</title>
 
+<link rel="stylesheet" href="css/style.css">
+
 </head>
-
-<body style="background-color: lightyellow; font-family: Arial; color: darkolivegreen"></body>
-
+<body>
     <h1> Mhm Garlic!</h1> 
 
     <h2> Best Naan</h2>
@@ -22,9 +23,8 @@
 </p>
 
 <figure> 
-    <img src="Garlic-Naan-Recipe.jpg" 
-         alt="Garlic Naan Bread" 
-         height="250p">
+    <img src="images/Garlic-Naan-Recipe.jpg" alt="Garlic Naan Bread" height="250"> 
+         
     <figcaption>Best Garlic Naan</figcaption>
 
 </figure>
@@ -42,9 +42,33 @@
     <li> 1/4 cup chopped cilantro (Optional)</li>
 </ul>
 
+<section id="conversion">
+    <h3>Conversion</h3>
+    <form>
+        <input type="number" id="tblspn" name="tblspn" placeholder="tablespoons">
+        =
+        <input type="number" id="cups" name="cups" placeholder="cups">
+    </form>
+</section>
+
+<section id="rating">
+    <h3>Rate This Recipe</h3>
+    <form>
+        <fieldset>
+            <legend>What skill level is this recipe?</legend>
+            <input type="radio" id="easy" name="skill" value="easy">
+            <label for="easy">Easy</label>
+            <input type="radio" id="intermediate" name="skill" value="intermediate">
+            <label for="intermediate">Intermediate</label>
+            <input type="radio" id="hard" name="skill" value="hard">
+            <label for="hard">Hard</label>
+        </fieldset>
+    </form>
+</section>
+<!--
 <h3>Equipment</h3>
 
-<ul>
+    <ul>
 
     <li> Big Bowls</li>
     <li> Measuring Cups</li>
@@ -55,8 +79,9 @@
     <li> Cast Iron Skillet</li>
     <li>Plastic Brush</li>
     
-</ul>
-
+    </ul>
+</section>
+-->
 <h3>Directions</h3>
 
 <ol>
@@ -73,7 +98,7 @@
     
 </ol>
 <hr>
-<p style="text-align: right;">This page created as academic activity only.</p>"
+<p class="footer-note">This page created as academic activity only.</p>
 
 </body>
 </html>
